@@ -5,22 +5,25 @@ def menu():
   return operation
 
 def addition(arrayNumbers):
-  return m.fsum(arrayNumbers)
+  return f"A Soma de {arrayNumbers[0]} com {arrayNumbers[1]} é igual a {m.fsum(arrayNumbers)}"
 
 def subtraction(firstNumber, secondNumber):
-  return firstNumber - secondNumber
+  return f" A Subtração de {firstNumber} com {secondNumber} é igual a {firstNumber - secondNumber}"
 
 def multiplication(firstNumber, secondNumber):
-  return firstNumber * secondNumber
+  return f"A Multiplicação de {firstNumber} com {secondNumber} é igual a {firstNumber * secondNumber}"
 
 def division(firstNumber, secondNumber):
-  return firstNumber / secondNumber
+  if secondNumber == 0:
+    return "Não é possivel dividir por 0"
+  else:
+    return f"A Divisão de {firstNumber} com {secondNumber} é igual a  {firstNumber / secondNumber}"
 
 def potentiation(firstNumber, secondNumber):
-  return m.pow(firstNumber,secondNumber)
+  return f"A Potencia de {firstNumber} com {secondNumber} é igual a {m.pow(firstNumber,secondNumber)}"
 
 def squareroot(number):
-  return m.sqrt(number)
+  return f"A Raiz Quadrada de {number} é igual a {m.sqrt(number)}"
 
 def ask2numbers():
   firstNumber = float(input("Escreva o primeiro numero: "))
