@@ -107,6 +107,7 @@ Este exercício está dividido em duas formas de resolução diferentes.
 </li>
 </ul>
 <hr>
+
 # <span style='font-size:200px;'>&#69;</span><span style='font-size:200px;'>&#78;</span><span style='font-size:200px;'>&#71;</span>
 
 # Simple Calculator
