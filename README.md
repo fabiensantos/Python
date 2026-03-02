@@ -24,7 +24,7 @@ O projeto também introduz o conceito de **níveis de dificuldade**, reforçando
 
 ## 📂 Conteúdo de Cada Ficheiro
 
-### 🔹 `main.py`
+### 🔹 <a href="https://github.com/fabiensantos/Python/blob/jogo_adivinha/main.py">`main.py`</a>
 
 Responsável pela gestão do menu principal.
 
@@ -38,7 +38,7 @@ Contém:
 
 ---
 
-### 🔹 `jogo.py`
+### 🔹 <a href="https://github.com/fabiensantos/Python/blob/jogo_adivinha/jogo.py">`jogo.py`</a>
 
 Contém a lógica principal do jogo.
 
@@ -56,7 +56,7 @@ Implementa o ciclo principal `while` que controla o estado do jogo.
 
 ---
 
-### 🔹 `funcoesaux.py`
+### 🔹 <a href="https://github.com/fabiensantos/Python/blob/jogo_adivinha/funcoesaux.py">`funcoesaux.py`</a>
 
 Módulo auxiliar com funções de suporte.
 
@@ -106,7 +106,7 @@ The project also introduces **difficulty levels**, reinforcing dynamic logic adj
 
 ## 📂 File Structure and Responsibilities
 
-### 🔹 `main.py`
+### 🔹 <a href="https://github.com/fabiensantos/Python/blob/jogo_adivinha/main.py">`main.py`</a>
 
 Responsible for managing the main menu.
 
@@ -120,7 +120,7 @@ This is the application entry point.
 
 ---
 
-### 🔹 `jogo.py`
+### 🔹 <a href="https://github.com/fabiensantos/Python/blob/jogo_adivinha/jogo.py">`jogo.py`</a>
 
 Contains the core game logic.
 
@@ -138,7 +138,7 @@ Implements the main `while` loop that controls the game state.
 
 ---
 
-### 🔹 `funcoesaux.py`
+### 🔹 <a href="https://github.com/fabiensantos/Python/blob/jogo_adivinha/funcoesaux.py">`funcoesaux.py`</a>
 
 Auxiliary module containing supporting functions.
 
