@@ -24,22 +24,22 @@ while (True):
   if operation == 1:
     firstNumber, secondNumber = f.ask2numbers()
     arrayNumbers =[firstNumber, secondNumber]
-    print(f"A Soma de {firstNumber} com {secondNumber} é igual a {f.addition(arrayNumbers)}")
+    print(f"{f.addition(arrayNumbers)}")
   elif operation == 2:
     firstNumber, secondNumber = f.ask2numbers()
-    print(f"A Subtração de {firstNumber} com {secondNumber} é igual a {f.subtraction(firstNumber,secondNumber)}")
+    print(f"{f.subtraction(firstNumber,secondNumber)}")
   elif operation == 3:
     firstNumber, secondNumber = f.ask2numbers()
-    print(f"A Multiplicação de {firstNumber} com {secondNumber} é igual a {f.multiplication(firstNumber,secondNumber)}")
+    print(f"{f.multiplication(firstNumber,secondNumber)}")
   elif operation == 4:
     firstNumber, secondNumber = f.ask2numbers()
-    print(f"A Divisão de {firstNumber} com {secondNumber} é igual a {f.division(firstNumber,secondNumber)}")
+    print(f"{f.division(firstNumber,secondNumber)}")
   elif operation == 5:
     firstNumber, secondNumber = f.ask2numbers()
-    print(f"A Potencia de {firstNumber} com {secondNumber} é igual a {f.potentiation(firstNumber,secondNumber)}")
+    print(f"{f.potentiation(firstNumber,secondNumber)}")
   elif operation == 6:
     number = float(input("Escreva o numero que deseja fazer a Raiz Quadrada: "))
-    print(f"A Raiz Quadrada de {number} é igual a {f.squareroot(number)}")
+    print(f"{f.squareroot(number)}")
   elif operation == 7:
     break
   else:
