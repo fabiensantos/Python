@@ -3,22 +3,25 @@ def menu():
   return operation
 
 def addition(firstNumber, secondNumber):
-  return firstNumber + secondNumber
+  return f" A Adição de {firstNumber} com {secondNumber} é igual a {firstNumber + secondNumber}"
 
 def subtraction(firstNumber, secondNumber):
-  return firstNumber - secondNumber
+  return f" A Subtração de {firstNumber} com {secondNumber} é igual a {firstNumber - secondNumber}"
 
 def multiplication(firstNumber, secondNumber):
-  return firstNumber * secondNumber
+  return f"A Multiplicação de {firstNumber} com {secondNumber} é igual a {firstNumber * secondNumber}"
 
 def division(firstNumber, secondNumber):
-  return firstNumber / secondNumber
+  if secondNumber == 0:
+    return "Não é possivel dividir por 0"
+  else:
+    return f"A Divisão de {firstNumber} com {secondNumber} é igual a  {firstNumber / secondNumber}"
 
 def potentiation(firstNumber, secondNumber):
-  return firstNumber ** secondNumber
+  return f"A Potencia de {firstNumber} com {secondNumber} é igual a {firstNumber ** secondNumber}"
 
 def squareroot(number):
-  return number ** 0.5
+  return f"A Raiz Quadrada de {number} é igual a {number ** 0.5}"
 
 def ask2numbers():
   firstNumber = float(input("Escreva o primeiro numero: "))
