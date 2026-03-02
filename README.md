@@ -26,6 +26,7 @@ Criar uma calculadora que realize operações matemáticas básicas.
   <li>Adicionar operações de potência e raiz quadrada.</li>
 </ul>
 
+## Explicação
 Este exercício está dividido em duas formas de resolução diferentes.
 
 <ul>
@@ -136,6 +137,8 @@ Create a calculator capable of performing basic mathematical operations.
 <ul>
     <li>Add exponentiation and square root operations.</li>
 </ul>
+
+## Explanation
 
 This exercise is divided into two different solution approaches.
 
